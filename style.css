@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+}
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+/*Classes*/
+.header {
+    font-size: 30px;
+    font-family: Georgia, Arial, sans-serif;
+    background: -webkit-linear-gradient(#d6d6d6, #554d66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.header:hover {
+    background: -webkit-linear-gradient(#554d66, #d6d6d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.home {
+    background-color: #1f1f1f;
+}
+.noselect {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+.navbar {
+    border: 1px solid #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navimg {
+    width: 20px;
+    height: auto;
+    vertical-align: text-top;
+}
+.navlist {
+    float: left;
+    border-right: 1px solid #8f8f8f;
+}
+.navlist:last-child {
+    border-right: none;
+}
+.navlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navlink:hover {
+    background-color: #474747;
+}
+.navselected {
+    background-color: #111;
+}
+.navselected:hover {
+    background-color: #111;
+}
