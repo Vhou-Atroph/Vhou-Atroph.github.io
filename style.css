@@ -60,6 +60,9 @@ body {
 .navlink:hover {
     background-color: #474747;
 }
+.navlink:active {
+    background-color: #111;
+}
 .navselected {
     background-color: #111;
 }
