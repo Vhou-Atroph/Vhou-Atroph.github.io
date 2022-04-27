@@ -38,7 +38,7 @@ body {
     background-color: #333;
 }
 .navimg {
-    width: 20px;
+    width: 3.2vh;
     height: auto;
     vertical-align: text-top;
 }
@@ -50,6 +50,7 @@ body {
     border-right: none;
 }
 .navlink {
+    font-size: 2.9vh;
     display: block;
     color: white;
     text-align: center;
