@@ -81,3 +81,42 @@ p {
 .navselected:hover {
     background-color: #111;
 }
+/*Blog Classes and IDs*/
+#posttitle {
+    font-size: 6vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+#postdate {
+    font-size: 1.3vh;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+.yeard {
+    font-size: 3.5vh;
+    margin-left: 10px;
+}
+.monthd {
+    font-size: 2.7vh;
+    margin-left: 25px;
+}
+.bloglink {
+    text-decoration: underline;
+}
+.bloglink:hover {
+    color: #00318c;
+    text-decoration: underline;
+}
+.bloglink:active {
+    color: #001640;
+    text-decoration: underline;
+}
+.bloglisting {
+    font-size: 2.3vh;
+    margin-left: 35px;
+}
+.postheader {
+    background-color: #171717;
+}
