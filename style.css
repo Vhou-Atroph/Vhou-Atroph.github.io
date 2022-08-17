@@ -110,6 +110,7 @@ p {
     margin-left: 25px;
 }
 .bloglink {
+    color: #427ce8;
     text-decoration: underline;
 }
 .bloglink:hover {
