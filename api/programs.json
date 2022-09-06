@@ -1,0 +1,17 @@
+{
+    "gag_calc_python": {
+        "name": "Toontown Gag Calculator",
+        "description": "A gag damage calculator for Toontown Rewritten.",
+        "version": "3.3.2b"
+    },
+    "mh_rise_hunt_chooser": {
+        "name": "MH Rise Hunt Chooser",
+        "description": "Chooses a random monster to hunt from Monster Hunter Rise.",
+        "version": "3.3"
+    },
+    "mh_world_hunt_chooser": {
+        "name": "MH World Hunt Chooser",
+        "description": "Chooses a random monster to hunt from Monster Hunter World.",
+        "version": "1.1.3"
+    }
+}
