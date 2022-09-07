@@ -1,31 +1,37 @@
 {
     "gag_calc_python": {
         "name": "Toontown Gag Calculator",
+        "img": "https://raw.githubusercontent.com/Vhou-Atroph/TT-Damage-Calculator/main/preview.png",
         "description": "A gag damage calculator for Toontown Rewritten.",
         "version": "3.3.2b"
     },
     "mh_rise_hunt_chooser": {
         "name": "MH Rise Hunt Chooser",
+        "img": "https://raw.githubusercontent.com/Vhou-Atroph/MHRise-Hunt-Chooser/master/preview.png",
         "description": "Chooses a random monster to hunt from Monster Hunter Rise.",
-        "version": "3.3"
+        "version": "3.3.1"
     },
     "mh_world_hunt_chooser": {
         "name": "MH World Hunt Chooser",
+        "img": "https://i.imgur.com/sFdK0oB.png",
         "description": "Chooses a random monster to hunt from Monster Hunter World.",
         "version": "1.1.3"
     },
     "ttr_api-rs": {
         "name": "ttr_api-rs",
+        "img": null,
         "description": "A library meant to make it easier to access Toontown Rewritten's APIs through Rust.",
         "version": "1.2.1"
     },
     "webp_killer": {
         "name": "Webp Killer",
+        "img": "https://raw.githubusercontent.com/Vhou-Atroph/webp_killer/master/auto-demo.gif",
         "description": "Convert your webp files to any other image extension from the command line!",
         "version": "1.2.3"
     },
     "webp_watcher": {
         "name": "Webp Watcher",
+        "img": null,
         "description": "A Firefox Web Extension that automatically redirects certain urls.",
         "version": "1.0.0"
     }
