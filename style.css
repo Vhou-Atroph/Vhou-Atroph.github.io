@@ -1,5 +1,5 @@
 a {
-    text-decoration: none;
+    color: #4c95f5;
 }
 body {
     color: white;
@@ -9,6 +9,12 @@ body {
 }
 h1 {
     margin: 0;
+}
+h2 {
+    margin: 1.33vh;
+}
+h3 {
+    margin: 1.45vh;
 }
 p {
     margin: 2vh;
@@ -127,4 +133,16 @@ p {
 }
 .postheader {
     background-color: #171717;
+}
+.postcontent h2 {
+    color: #d1d1d1;
+    font-size: 26px;
+}
+.postcontent h3 {
+    color: #d1d1d1;
+    font-size: 22px;
+}
+.postcontent p {
+    color: #e8e8e8;
+    font-size: 18px;
 }
