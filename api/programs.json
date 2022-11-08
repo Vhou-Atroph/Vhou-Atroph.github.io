@@ -34,5 +34,11 @@
         "img": null,
         "description": "A Firefox Web Extension that automatically redirects certain urls.",
         "version": "1.0.0"
+    },
+    "adopt-a-doodle" : {
+        "name": "adopt-a-doodle",
+        "img": null,
+        "description": "A Python package to make the creation of Doodle actors easier!",
+        "version": "0.0.1"
     }
 }
