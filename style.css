@@ -21,6 +21,12 @@ p {
     margin: 2vh;
     font-size: 18px;
 }
+.noselect {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
 
 /*Header and Navbar*/
 .top {
@@ -45,12 +51,6 @@ p {
 }
 .home {
     background-color: #250330;
-}
-.noselect {
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
 }
 .navbar {
     border: 1px solid #000000;
@@ -92,6 +92,16 @@ p {
 }
 .navselected:hover {
     background-color: #3a0b41;
+}
+
+/*Home Page*/
+.project img {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 /*About Page*/
