@@ -93,6 +93,14 @@ p {
     background-color: #170013;
 }
 
+/*About Page*/
+.socialsite {
+    width: 8%;
+}
+.socialsite img {
+    padding: 30px;
+}
+
 /*Blog Classes and IDs*/
 #posttitle {
     font-size: 6vh;
