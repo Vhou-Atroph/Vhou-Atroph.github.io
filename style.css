@@ -95,6 +95,9 @@ p {
 }
 
 /*Home Page*/
+.project {
+    clear: both;
+}
 .project img {
     float: left;
     position: relative;
