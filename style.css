@@ -1,3 +1,4 @@
+/*General*/
 a {
     color: #4c95f5;
 }
@@ -18,31 +19,7 @@ h3 {
 }
 p {
     margin: 2vh;
-}
-
-/*Header and Navbar*/
-.top {
-    width: 100%;
-    background: -webkit-linear-gradient(#2b2b2b 25%, #121212 90%);
-}
-.header {
-    font-size: 6vh;
-    font-family: "Impress BT", Arial, sans-serif;
-    background: -webkit-linear-gradient(#d6d6d6, #554d66);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-}
-.header:hover {
-    background: -webkit-linear-gradient(#554d66, #d6d6d6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-}
-.home {
-    background-color: #1f1f1f;
+    font-size: 18px;
 }
 .noselect {
     user-select: none;
@@ -50,28 +27,53 @@ p {
     -webkit-user-drag: none;
     -webkit-user-select: none;
 }
+
+/*Header and Navbar*/
+.top {
+    width: 100%;
+    background: -webkit-linear-gradient(#340441 25%, #140218 90%);
+}
+.header {
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+    background: -webkit-linear-gradient(#f6f6f6, #c1c1c1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.header:hover {
+    background: -webkit-linear-gradient(#c1c1c1, #f6f6f6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.home {
+    background-color: #250330;
+}
 .navbar {
     border: 1px solid #000000;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #60007d;
 }
 .navimg {
-    width: 3.2vh;
-    height: auto;
+    width: auto;
+    height: 22px;
     vertical-align: text-top;
 }
 .navlist {
     float: left;
-    border-right: 1px solid #8f8f8f;
+    border-right: 1px solid #e4e4e4;
 }
 .navlist:last-child {
     border-right: none;
 }
 .navlink {
-    font-size: 2.9vh;
+    font-size: 130%;
     display: block;
     color: white;
     text-align: center;
@@ -79,17 +81,36 @@ p {
     text-decoration: none;
 }
 .navlink:hover {
-    background-color: #474747;
+    background-color: #911aa3;
 }
 .navlink:active {
-    background-color: #111;
+    background-color: #3a0b41;
 }
 .navselected {
-    background-color: #111;
-    border-bottom: 3px solid #f7f7f7;
+    background-color: #3a0b41;
+    border-bottom: 3px solid #b155e3;
 }
 .navselected:hover {
-    background-color: #111;
+    background-color: #3a0b41;
+}
+
+/*Home Page*/
+.project {
+    clear: both;
+}
+.project img {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: auto;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+/*About Page*/
+.socialsite {
+    width: 8%;
+    margin: 10px;
 }
 
 /*Blog Classes and IDs*/
@@ -132,7 +153,7 @@ p {
     margin-left: 35px;
 }
 .postheader {
-    background-color: #171717;
+    background-color: #340239;
 }
 .postcontent h2 {
     color: #d1d1d1;
@@ -144,5 +165,4 @@ p {
 }
 .postcontent p {
     color: #e8e8e8;
-    font-size: 18px;
 }
