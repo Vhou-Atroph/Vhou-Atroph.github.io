@@ -19,6 +19,7 @@ h3 {
 }
 p {
     margin: 2vh;
+    font-size: 18px;
 }
 
 /*Header and Navbar*/
@@ -151,5 +152,4 @@ p {
 }
 .postcontent p {
     color: #e8e8e8;
-    font-size: 18px;
 }
