@@ -27,7 +27,7 @@ p {
     background: -webkit-linear-gradient(#340441 25%, #140218 90%);
 }
 .header {
-    font-size: 6vh;
+    font-size: 150%;
     font-family: Arial, sans-serif;
     background: -webkit-linear-gradient(#f6f6f6, #c1c1c1);
     -webkit-background-clip: text;
@@ -66,13 +66,13 @@ p {
 }
 .navlist {
     float: left;
-    border-right: 1px solid #8f8f8f;
+    border-right: 1px solid #e4e4e4;
 }
 .navlist:last-child {
     border-right: none;
 }
 .navlink {
-    font-size: 2.9vh;
+    font-size: 130%;
     display: block;
     color: white;
     text-align: center;
@@ -80,17 +80,17 @@ p {
     text-decoration: none;
 }
 .navlink:hover {
-    background-color: #23011e;
+    background-color: #911aa3;
 }
 .navlink:active {
-    background-color: #170013;
+    background-color: #3a0b41;
 }
 .navselected {
-    background-color: #170013;
+    background-color: #3a0b41;
     border-bottom: 3px solid #b155e3;
 }
 .navselected:hover {
-    background-color: #170013;
+    background-color: #3a0b41;
 }
 
 /*About Page*/
