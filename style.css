@@ -53,12 +53,16 @@ p {
     background-color: #250330;
 }
 .navbar {
+    width: 100%;
     border: 1px solid #000000;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #60007d;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .navimg {
     width: auto;
@@ -71,6 +75,7 @@ p {
 }
 .navlist:last-child {
     border-right: none;
+    -ms-flex-align: end;
 }
 .navlink {
     font-size: 130%;
